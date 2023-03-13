@@ -48,6 +48,68 @@ O Job Insights permite a análises a partir de um conjunto de dados sobre empreg
   </ol>
 </details>
 <details>
+  <summary><strong>Estrutura do Projeto</strong></summary><br />
+
+  ```
+  .
+  ├──🔹README.md
+  ├──🔸Dockerfile
+  ├──🔸docker-compose.yml
+  ├──🔸dev-requirements.txt
+  ├──🔸requirements.txt
+  ├── data
+  │   └──🔸jobs.csv
+  ├── src
+  │   ├── flask_app
+  │   │   ├── templates
+  │   │   │   ├── includes
+  │   │   │   │   └──🔸nav.jinja2
+  │   │   │   ├──🔸base.jinja2
+  │   │   │   ├──🔸index.jinja2
+  │   │   │   ├──🔸job.jinja2
+  │   │   │   └──🔸list_jobs.jinja2
+  │   │   ├──🔸app.py
+  │   │   ├──🔸more_insights.py
+  │   │   └──🔹routes_and_views.py
+  │   ├── insights
+  │   │   ├──🔹industries.py
+  │   │   ├──🔹jobs.py
+  │   │   └──🔹salaries.py
+  │   ├── pre_built
+  │   │   ├──🔸brazilian_jobs.py
+  │   │   ├──🔸counter.py
+  │   │   └──🔸sorting.py
+  ├── tests
+  │   ├──🔸__init__.py
+  │   ├──🔸conftest.py
+  │   ├── brazilian
+  │   │   ├──🔸__init__.py
+  │   │   ├──🔸conftest.py
+  │   │   ├──🔸mocks.py
+  │   │   ├──🔹test_brazilian_jobs.py
+  │   ├── counter
+  │   │   ├──🔸__init__.py
+  │   │   ├──🔸conftest.py
+  │   │   ├──🔸mocks.py
+  │   │   ├──🔹test_counter.py
+  │   ├── mocks
+  │   │   ├──🔸job_1.html
+  │   │   ├──🔸jobs.csv
+  │   │   ├──🔸jobs_with_industries.csv
+  │   │   ├──🔸jobs_with_salaries.csv
+  │   │   └──🔸jobs_with_types.csv
+  │   ├── sorting
+  │   │   ├──🔸__init__.py
+  │   │   ├──🔸conftest.py
+  │   │   ├──🔸mocks.py
+  │   │   └──🔹test_sorting.py
+  
+    Legenda:
+  🔸Arquivos de propriedade intelectual da Trybe
+  🔹Arquivos desenvolvidos por mim
+  ```
+</details>
+<details>
   <summary><strong>Detalhes sobre Testes Desenvolvidos</strong></summary><br />
   <p>tests/counter/test_counter.py</p>
     <ul>
