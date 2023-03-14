@@ -1,6 +1,6 @@
 # Projeto Job Insights! 	:briefcase:
 
-Projeto desenvolvido em Python e Flask onde os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma disponiblizando conjuntos de dados para cientistas de dados. A Trybe criou as páginas inicial e de pesquisa por vaga, usando as funções que criaram e descreveram para filtrar os dados corretamente. Com base na estrutura já existente, desenvolvi a página de detalhes de uma vaga e desenvolvi alguns testes.
+Projeto desenvolvido em Python e Flask onde os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma que disponibiliza conjuntos de dados para cientistas de dados. A Trybe criou as páginas inicial e de pesquisa por vaga, usando as funções que criaram e descreveram para filtrar os dados corretamente. Com base na estrutura já existente, desenvolvi a página de detalhes de uma vaga e desenvolvi alguns testes.
 
 O Job Insights permite a análises a partir de um conjunto de dados sobre empregos.
 
